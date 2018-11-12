@@ -1,0 +1,297 @@
+header .headcol {
+  background-color: #ff4800; }
+  header .headcol .container .row .col1 {
+    display: flex;
+    align-items: center; }
+    header .headcol .container .row .col1 p {
+      color: white;
+      margin-right: 50px;
+      align-items: center;
+      margin-top: 15px;
+      font-size: 13px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500; }
+  header .headcol .container .row .col2 .btndonate {
+    background-color: #262222;
+    width: 170px;
+    height: 55px;
+    text-align: center;
+    float: right; }
+    header .headcol .container .row .col2 .btndonate a {
+      color: white;
+      align-items: center;
+      font-weight: 700;
+      line-height: 58px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px; }
+
+.container .navbar-brand {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+.container ul li {
+  margin-right: 20px; }
+  .container ul li a {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    color: black; }
+
+.main-content {
+  background-image: url(images/hero.jpg);
+  background-size: cover; }
+  .main-content .layer {
+    background-color: rgba(0, 0, 0, 0.527);
+    background-size: cover;
+    height: 80vh;
+    z-index: 5; }
+    .main-content .layer .container .maincon {
+      padding-top: 200px;
+      position: relative; }
+      .main-content .layer .container .maincon .maintxt h1 {
+        color: white;
+        font-size: 120px;
+        font-weight: 600;
+        line-height: 1; }
+      .main-content .layer .container .maincon h2 {
+        color: white;
+        font-size: 56px;
+        font-weight: 600; }
+      .main-content .layer .container .maincon p {
+        color: white;
+        font-weight: 500;
+        line-height: 1.8;
+        margin-top: 40px; }
+    .main-content .layer .container .btns {
+      margin-top: 40px; }
+      .main-content .layer .container .btns .first {
+        width: 175px;
+        height: 55px;
+        background-color: #ff4800;
+        border: none;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 22.5px;
+        margin-right: 10px; }
+      .main-content .layer .container .btns .second {
+        width: 175px;
+        height: 55px;
+        border: 2px solid #ff4800;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 22.5px; }
+        .main-content .layer .container .btns .second:hover {
+          background-color: #ff4800; }
+
+.middle-contents .container .midcon {
+  margin-top: 100px;
+  justify-content: center; }
+  .middle-contents .container .midcon .FR {
+    text-align: center;
+    background-color: #ecf2f5;
+    border-radius: 25px;
+    margin: 20px; }
+    .middle-contents .container .midcon .FR .midicon {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      .middle-contents .container .midcon .FR .midicon i {
+        font-size: 3.5em; }
+    .middle-contents .container .midcon .FR:hover {
+      background-color: #ff4800;
+      transition: all 0.1s linear;
+      color: white; }
+    .middle-contents .container .midcon .FR p {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+  .middle-contents .container .midcon .SC {
+    text-align: center;
+    background-color: #ecf2f5;
+    border-radius: 25px;
+    margin: 20px; }
+    .middle-contents .container .midcon .SC .midicon {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      .middle-contents .container .midcon .SC .midicon i {
+        font-size: 3.5em; }
+    .middle-contents .container .midcon .SC:hover {
+      background-color: #ff4800;
+      transition: all 0.1s linear;
+      color: white; }
+    .middle-contents .container .midcon .SC p {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+  .middle-contents .container .midcon .TH {
+    text-align: center;
+    background-color: #ecf2f5;
+    border-radius: 25px;
+    margin: 20px; }
+    .middle-contents .container .midcon .TH .midicon {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      .middle-contents .container .midcon .TH .midicon i {
+        font-size: 3.5em; }
+    .middle-contents .container .midcon .TH:hover {
+      background-color: #ff4800;
+      transition: all 0.1s linear;
+      color: white; }
+    .middle-contents .container .midcon .TH p {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+
+.wellcome {
+  background-image: url(images/wellcome.jpg);
+  background-size: cover; }
+  .wellcome .layerwell {
+    background-color: rgba(0, 0, 0, 0.733); }
+    .wellcome .layerwell .container .row .welltxt {
+      margin-top: 80px; }
+      .wellcome .layerwell .container .row .welltxt h2 {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 700; }
+      .wellcome .layerwell .container .row .welltxt hr {
+        color: #ff4800;
+        width: 60px;
+        border: 2.5px solid #ff4800;
+        float: left;
+        border-radius: 5px; }
+      .wellcome .layerwell .container .row .welltxt p {
+        color: #c4c4c4;
+        margin-top: 70px; }
+      .wellcome .layerwell .container .row .welltxt .btnwell {
+        width: 150px;
+        height: 45px;
+        background-color: #ff4800;
+        border: none;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 22.5px;
+        margin-right: 10px;
+        color: white;
+        margin-top: 30px; }
+    .wellcome .layerwell .container .row .wellimg img {
+      margin-bottom: 100px;
+      margin-top: 100px; }
+
+.events .container .eventsmaindiv {
+  display: flex;
+  margin: 0;
+  padding: 0; }
+  .events .container .eventsmaindiv .eventsmainleft {
+    margin-top: 100px; }
+    .events .container .eventsmaindiv .eventsmainleft .eventsentry {
+      margin-bottom: 100px; }
+      .events .container .eventsmaindiv .eventsmainleft .eventsentry h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 700; }
+      .events .container .eventsmaindiv .eventsmainleft .eventsentry hr {
+        color: #ff4800;
+        width: 60px;
+        border: 2.5px solid #ff4800;
+        float: left;
+        border-radius: 5px;
+        margin-bottom: 50px; }
+    .events .container .eventsmaindiv .eventsmainleft .eventsleft {
+      display: flex;
+      margin-top: 40px;
+      height: 144px; }
+      .events .container .eventsmaindiv .eventsmainleft .eventsleft .divimg {
+        margin-right: 30px; }
+      .events .container .eventsmaindiv .eventsmainleft .eventsleft h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 700; }
+      .events .container .eventsmaindiv .eventsmainleft .eventsleft .wellp {
+        display: flex; }
+        .events .container .eventsmaindiv .eventsmainleft .eventsleft .wellp p {
+          margin-right: 10px;
+          margin-bottom: 0; }
+          .events .container .eventsmaindiv .eventsmainleft .eventsleft .wellp p a {
+            color: black;
+            font-size: 13px;
+            font-weight: 500; }
+      .events .container .eventsmaindiv .eventsmainleft .eventsleft p {
+        color: #8d8a8a;
+        margin-top: 5px; }
+      .events .container .eventsmaindiv .eventsmainleft .eventsleft a {
+        color: #ff4800; }
+  .events .container .eventsmaindiv .eventsmainright {
+    margin-top: 100px; }
+    .events .container .eventsmaindiv .eventsmainright .eventsentry {
+      margin-bottom: 100px; }
+      .events .container .eventsmaindiv .eventsmainright .eventsentry h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 700; }
+      .events .container .eventsmaindiv .eventsmainright .eventsentry hr {
+        color: #ff4800;
+        width: 60px;
+        border: 2.5px solid #ff4800;
+        float: left;
+        border-radius: 5px;
+        margin-bottom: 50px; }
+    .events .container .eventsmaindiv .eventsmainright .eventsright {
+      display: flex;
+      margin-top: 40px;
+      height: 144px; }
+      .events .container .eventsmaindiv .eventsmainright .eventsright .divimg {
+        margin-right: 30px; }
+      .events .container .eventsmaindiv .eventsmainright .eventsright h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 700; }
+      .events .container .eventsmaindiv .eventsmainright .eventsright .wellp {
+        display: flex; }
+        .events .container .eventsmaindiv .eventsmainright .eventsright .wellp p {
+          margin-right: 10px;
+          margin-bottom: 0; }
+          .events .container .eventsmaindiv .eventsmainright .eventsright .wellp p a {
+            color: black;
+            font-size: 13px;
+            font-weight: 500; }
+      .events .container .eventsmaindiv .eventsmainright .eventsright p {
+        color: #8d8a8a;
+        margin-top: 5px; }
+      .events .container .eventsmaindiv .eventsmainright .eventsright a {
+        color: #ff4800; }
+      .events .container .eventsmaindiv .eventsmainright .eventsright .eventsbtn {
+        width: 175px;
+        height: 55px;
+        background-color: #ff4800;
+        border: none;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 22.5px;
+        margin-right: 10px;
+        color: white;
+        margin-top: 70px; }
+    .events .container .eventsmaindiv .eventsmainright .eventdonatescale hr {
+      color: #ff4800;
+      width: 400px;
+      border: 2.5px solid #ff4800;
+      float: left;
+      border-radius: 5px;
+      margin-top: 25px; }
+    .events .container .eventsmaindiv .eventsmainright .eventdonatescale div {
+      width: 50px;
+      height: 50px;
+      background-color: #ff4800;
+      margin-top: 220px;
+      margin-left: 400px;
+      border-radius: 100%;
+      text-align: center;
+      align-items: center; }
+      .events .container .eventsmaindiv .eventsmainright .eventdonatescale div h3 {
+        color: white;
+        font-size: 20px;
+        padding-top: 12px; }
+    .events .container .eventsmaindiv .eventsmainright .eventdonatecount {
+      display: flex;
+      justify-content: space-between; }
+      .events .container .eventsmaindiv .eventsmainright .eventdonatecount p {
+        margin: 0;
+        color: #8b8b8b; }
+
+/*# sourceMappingURL=style.css.map */
